@@ -1,0 +1,24 @@
+﻿@{ ViewBag.Title = "Home Page"; }
+
+<div class="jumbotron">
+    <h1>Frank's Demo</h1>
+    <p class="lead">This is a demo that shows a couple of the libraries I have worked with for ASP.NET MVC. In all the pages you will see JavaScript and CSHTML work for the view and C# on the controller for "querying" data and simple models.</p>
+    <p class="lead">The "data querys" are just dummy data, but it is handled as if they had come out from a data base.</p>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-md-6">
+        <h2>Student Page</h2>
+        <p>
+            Take a look at the BootstrapTable and bootstrap-select libraries. Despite there names, they are not part of the main Bootstrap library.
+        </p>
+        <p>@Html.ActionLink("Learn More", "Index", "Student", new { area = "" }, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-xs-12 col-md-6">
+        <h2>Chart Page</h2>
+        <p>
+            This page showcases the Highstocks Library. This library allows developers to display different types of charts.
+        </p>
+        <p>@Html.ActionLink("Learn More", "Index", "Chart", new { area = "" }, new { @class = "btn btn-primary" })</p>
+    </div>
+</div>
