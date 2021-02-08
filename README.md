@@ -13,6 +13,6 @@ Instructions to Run Locally:
 3. Run in Debug mode
 
 Custom Files:
-Scripts: chart.js, student.js, common.js
-Controllers: ChartController.cs, StudentController.cs
-Views: _Layout.cshtml, Index.cshtml (for Home, Chart and Student folders)
+1. Scripts: chart.js, student.js, common.js
+2. Controllers: ChartController.cs, StudentController.cs
+3. Views: _Layout.cshtml, Index.cshtml (for Home, Chart and Student folders)
